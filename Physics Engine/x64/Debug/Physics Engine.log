@@ -1,0 +1,6 @@
+﻿  DirectXDevice.cpp
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Graphics\DirectXDevice.cpp(28,38): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Graphics\DirectXDevice.cpp(11,35): warning C4100: 'window': unreferenced formal parameter
+  Physics Engine.cpp
+  Generating Code...
+  Physics Engine.vcxproj -> C:\Post University Work\Physics Engine Project\Physics-Engine\x64\Debug\Physics Engine.exe
