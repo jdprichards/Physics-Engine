@@ -3,8 +3,18 @@
   <ItemGroup>
     <ClCompile Include="Physics Engine.cpp" />
     <ClCompile Include="Graphics\DirectXDevice.cpp" />
+    <ClCompile Include="Maths\MathsHelpers.cpp" />
+    <ClCompile Include="Maths\Vector2.cpp" />
+    <ClCompile Include="Maths\Vector3.cpp" />
+    <ClCompile Include="Maths\Vector4.cpp" />
+    <ClCompile Include="Maths\Matrix4x4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphics\DirectXDevice.h" />
+    <ClInclude Include="Maths\MathsHelpers.h" />
+    <ClInclude Include="Maths\Vector2.h" />
+    <ClInclude Include="Maths\Vector3.h" />
+    <ClInclude Include="Maths\Vector4.h" />
+    <ClInclude Include="Maths\Matrix4x4.h" />
   </ItemGroup>
 </Project>

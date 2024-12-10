@@ -1,2 +1,7 @@
 C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Graphics\DirectXDevice.cpp;C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\x64\Debug\DirectXDevice.obj
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\MathsHelpers.cpp;C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\x64\Debug\MathsHelpers.obj
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Matrix4x4.cpp;C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\x64\Debug\Matrix4x4.obj
 C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Physics Engine.cpp;C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\x64\Debug\Physics Engine.obj
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector2.cpp;C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\x64\Debug\Vector2.obj
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp;C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\x64\Debug\Vector3.obj
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector4.cpp;C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\x64\Debug\Vector4.obj

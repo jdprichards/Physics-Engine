@@ -1,6 +1,16 @@
-﻿  DirectXDevice.cpp
-C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Graphics\DirectXDevice.cpp(28,38): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Graphics\DirectXDevice.cpp(11,35): warning C4100: 'window': unreferenced formal parameter
+﻿  Matrix4x4.cpp
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.h(43,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Maths/Matrix4x4.cpp')
+  
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector4.h(39,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Maths/Matrix4x4.cpp')
+  
   Physics Engine.cpp
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.h(43,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Physics%20Engine.cpp')
+  
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector4.h(39,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Physics%20Engine.cpp')
+  
   Generating Code...
   Physics Engine.vcxproj -> C:\Post University Work\Physics Engine Project\Physics-Engine\x64\Debug\Physics Engine.exe

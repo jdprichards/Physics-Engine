@@ -11,6 +11,8 @@
 #include <string>
 #include <memory>
 
+#include "../Maths/Matrix4x4.h"
+
 // Global Variables and Forward Declared Functions
 
 void GetDesktopResolution(int& horizontal, int& vertical);
@@ -62,6 +64,8 @@ int APIENTRY wWinMain(
 
 	MSG msg = {};
 
+
+
 	while (msg.message != WM_QUIT) // As long as window is open loop
 	{
 		// Check for and deal with window messages (INPUT, WINDOW RESIZING, MINIMISING, etc.)
@@ -81,6 +85,7 @@ int APIENTRY wWinMain(
 
 	// Output any memory leaks to Visual Studio after app ends
 	//_CrtSetDbgFlag(_CrtSetDbgFlag(_CRTDBG_REPORT_FLAG | _CRTDBG_LEAK_CHECK_DF));
+
 
 	return (int)msg.wParam;
 }

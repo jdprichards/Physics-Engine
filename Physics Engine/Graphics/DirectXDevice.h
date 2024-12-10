@@ -53,6 +53,13 @@ private:
 	CComPtr<ID3D11Texture2D> mBackBufferTexture;
 	CComPtr<ID3D11RenderTargetView> mBackBufferRenderTarget;
 	CComPtr<IDXGISwapChain1> mSwapChain;
+
+	// Depth Buffer
+	CComPtr<ID3D11Texture2D> mDepthStencilTexture; // Texture holding Depth Values
+	CComPtr<ID3D11DepthStencilView> mDepthStencil; // Depth Buffer itself - Uses ABOVE Texture
+	CComPtr<ID3D11ShaderResourceView> mDepthShaderView; // Allows Access to Depth Buffer - As a Texture in certial Specialised Shaders
+
+	// Manager Classes for DirectX Resources
 };
 
 #endif // !_DIRECTX_DEVICE_H_
