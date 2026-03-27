@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Utility\CInput.cpp" />
     <ClCompile Include="Graphics\DirectXDevice.cpp" />
     <ClCompile Include="Maths\MathsHelpers.cpp" />
     <ClCompile Include="Maths\Matrix4x4.cpp" />
@@ -26,14 +27,19 @@
     <ClCompile Include="Maths\Vector2.cpp" />
     <ClCompile Include="Maths\Vector3.cpp" />
     <ClCompile Include="Maths\Vector4.cpp" />
+    <ClCompile Include="CSystem.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Utility\CInput.h" />
     <ClInclude Include="Graphics\DirectXDevice.h" />
     <ClInclude Include="Maths\MathsHelpers.h" />
     <ClInclude Include="Maths\Vector2.h" />
     <ClInclude Include="Maths\Vector3.h" />
     <ClInclude Include="Maths\Vector4.h" />
     <ClInclude Include="Maths\Matrix4x4.h" />
+    <ClInclude Include="CSystem.h" />
+    <ClInclude Include="Utility\ColourTypes.h" />
+    <ClInclude Include="Utility\Utility.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -122,7 +128,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>Graphics;External\DirectXTK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Graphics;External\DirectXTK;Maths;Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
@@ -130,7 +136,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EntryPointSymbol>
       </EntryPointSymbol>
-      <AdditionalLibraryDirectories>Maths;External\DirectXTK\%(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>Maths;Utility;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>d3d11.lib;dxgi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

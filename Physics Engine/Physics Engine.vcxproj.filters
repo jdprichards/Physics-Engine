@@ -8,6 +8,8 @@
     <ClCompile Include="Maths\Vector3.cpp" />
     <ClCompile Include="Maths\Vector4.cpp" />
     <ClCompile Include="Maths\Matrix4x4.cpp" />
+    <ClCompile Include="CSystem.cpp" />
+    <ClCompile Include="Utility\CInput.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphics\DirectXDevice.h" />
@@ -16,5 +18,9 @@
     <ClInclude Include="Maths\Vector3.h" />
     <ClInclude Include="Maths\Vector4.h" />
     <ClInclude Include="Maths\Matrix4x4.h" />
+    <ClInclude Include="Utility\ColourTypes.h" />
+    <ClInclude Include="Utility\Utility.h" />
+    <ClInclude Include="CSystem.h" />
+    <ClInclude Include="Utility\CInput.h" />
   </ItemGroup>
 </Project>

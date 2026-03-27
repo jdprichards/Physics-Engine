@@ -102,25 +102,25 @@ public:
 	// Returns a reference can be used to Get/Set
 	//		Vector3 v = myMatrix.XAxis()
 	//		myMatrix.XAxis() = {1, 2, 3}
-	Vector3T<T>& XAxis{ return Row(0); }
+	Vector3T<T>& XAxis() { return Row(0); }
 
 	// Direct Access to Y axis of the Matrix
 	// Returns a reference can be used to Get/Set
 	//		Vector3 v = myMatrix.YAxis()
 	//		myMatrix.YAxis() = {1, 2, 3}
-	Vector3T<T>& YAxis{ return Row(1); }
+	Vector3T<T>& YAxis() { return Row(1); }
 
 	// Direct Access to Z axis of the Matrix
 	// Returns a reference can be used to Get/Set
 	//		Vector3 v = myMatrix.ZAxis()
 	//		myMatrix.ZAxis() = {1, 2, 3}
-	Vector3T<T>& ZAxis{ return Row(0); }
+	Vector3T<T>& ZAxis() { return Row(0); }
 
 	// Direct Access to Position of the Matrix
 	// Returns a reference can be used to Get/Set
 	//		Vector3 v = myMatrix.Position()
 	//		myMatrix.Position() = {1, 2, 3}
-	Vector3T<T>& Position{ return Row(3); }
+	Vector3T<T>& Position() { return Row(3); }
 
 
 };

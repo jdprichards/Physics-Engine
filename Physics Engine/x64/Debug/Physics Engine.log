@@ -1,16 +1,63 @@
-﻿  Matrix4x4.cpp
-C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.h(43,9): warning C4615: #pragma warning: unknown user warning type
-  (compiling source file 'Maths/Matrix4x4.cpp')
-  
-C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector4.h(39,9): warning C4615: #pragma warning: unknown user warning type
-  (compiling source file 'Maths/Matrix4x4.cpp')
-  
+﻿  DirectXDevice.cpp
+  MathsHelpers.cpp
+  Matrix4x4.cpp
   Physics Engine.cpp
 C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.h(43,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Maths/Matrix4x4.cpp')
+  
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector4.h(40,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Maths/Matrix4x4.cpp')
+  
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.h(43,9): warning C4615: #pragma warning: unknown user warning type
   (compiling source file 'Physics%20Engine.cpp')
   
-C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector4.h(39,9): warning C4615: #pragma warning: unknown user warning type
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector4.h(40,9): warning C4615: #pragma warning: unknown user warning type
   (compiling source file 'Physics%20Engine.cpp')
+  
+  Vector2.cpp
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector2.h(42,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Maths/Vector2.cpp')
+  
+  Vector3.cpp
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.h(43,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Maths/Vector3.cpp')
+  
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(89,44): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(89,44):
+  the template instantiation context (the oldest one first) is
+  	C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(202,29):
+  	see reference to class template instantiation 'Vector3T<int>' being compiled
+  	C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(88,1):
+  	while compiling class template member function 'float Vector3T<int>::Length(void) const'
+  
+  Vector4.cpp
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(101,9): warning C4244: 'return': conversion from 'T' to 'float', possible loss of data
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(101,9): warning C4244:         with
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(101,9): warning C4244:         [
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(101,9): warning C4244:             T=int
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(101,9): warning C4244:         ]
+  C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(101,9):
+  the template instantiation context (the oldest one first) is
+  	C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(98,1):
+  	while compiling class template member function 'float Vector3T<int>::LengthSq(void) const'
+  
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.h(43,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Maths/Vector4.cpp')
+  
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector4.h(40,9): warning C4615: #pragma warning: unknown user warning type
+  (compiling source file 'Maths/Vector4.cpp')
   
   Generating Code...
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(45): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(59): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(59): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(45): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(45): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector3.cpp(59): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector2.cpp(56): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector2.cpp(43): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector2.cpp(43): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector2.cpp(56): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector2.cpp(43): warning C4172: returning address of local variable or temporary: vOut
+C:\Post University Work\Physics Engine Project\Physics-Engine\Physics Engine\Maths\Vector2.cpp(56): warning C4172: returning address of local variable or temporary: vOut
   Physics Engine.vcxproj -> C:\Post University Work\Physics Engine Project\Physics-Engine\x64\Debug\Physics Engine.exe

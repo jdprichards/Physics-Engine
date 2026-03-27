@@ -19,6 +19,7 @@ template<typename T> class Vector4T;
 // Define conveinient names for Vectors of diffrent types ot avoid messy angle bracket syntax
 using Vector4f = Vector4T<float>;	// Vector4 with float coords
 using Vector4d = Vector4T<double>;	// Vector4 with double coords
+using Vector4 = Vector4f; // Simple name for Vector4
 // NOT SUPPORTING int Vector4
 
 // Full Declaration
